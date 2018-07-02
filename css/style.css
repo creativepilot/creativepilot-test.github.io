@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+@import url('https://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Sacramento|Satisfy');
+
+
+
+
+* {
+	margin: 0 auto;
+	box-sizing: border-box;	
+}
+
+html,body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+ body {
+ 	font: sans-serif;
+ }
+
+
+p {
+	font-family: sans-serif;
+	text-transform: none;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.7em;
+	margin: 0 auto;
+	padding: 5em;
+	padding-top: 2em;
+
+}
+
+  .header {
+  	margin-top: 2em;
+  	width: 100%;
+  	align-self: center;
+  	text-align: center; 
+  	align-content: center;
+ 
+ 
+  }
+
+
+  .logo {
+	margin: 0 auto;
+	display: block;
+    width: 100%;
+   
+}
+
+
+nav {
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 100;
+	display: inline-block;
+	text-align: center;
+
+}
+
+nav a {
+	width: 100%;
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', serif;
+	font-size: 170%;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #BEC2D4;
+	text-align: center;
+
+}
+
+
+.clearfix:nav {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0; 
+	font-size: 0;
+}
+
+
+
+ul {
+	list-style: none;
+	display: inline-flex;
+	width: 100%;
+
+}
+
+li .hover {
+	list-style: none;
+	text-align: center;
+}
+
+li .hover:hover{
+	font-size: 170%;
+	color: #000000;
+	list-style: none;
+	text-align: center;
+}
+
+/*image slideshow*/
+#slideshow {
+  margin-top: 1em;
+  position: relative;
+  width: 100%;
+  height: 50em;
+  overflow: hidden;
+  -webkit-animation: cycle 25s ease-in-out infinite;
+}
+
+#slideshow img {
+	-webkit-animation: cycle 25s ease-in-out infinite;
+
+}
+
+
+
+
+h2 {
+	font-family: 'Open Sans Condensed', serif;
+	font-size: 250%;
+	font-weight: 300;
+	color: #BEC2D4;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 1em;
+}
+
+#quote {
+	width: 100%;
+	align-items: center;
+	font-family: 'Sacramento', Script;
+	font-size: 300%;
+	color: #000000;
+	text-transform: none;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	
+	
+
+}
+
+#About /* h2 */ {
+	margin-left: 8em;
+	padding: .5em;
+	text-align: center;
+	background: white;
+	position: absolute;
+
+}
+
+#about {
+	margin-top: ;
+	font-family: sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #000000;
+	line-height: 1.7em;
+	margin-bottom: 8em;
+	
+
+}
+
+#about p {
+	font-family: sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #000000;
+	line-height: 1.7em;
+	padding: 3em 3em 3em 0;
+
+}
+
+#left {
+    margin-right: -10em;
+    padding-top: ;
+    float: left;
+	
+
+}
+
+#right {
+	padding: 6em .5em 0 1em;  
+    width: 100%;
+    text-align: left;
+
+}
+
+.portrait {
+	width: 70%;
+	padding: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+#Services /* h2 */ {
+	display: block;
+	text-align: center;
+	padding-top: 0;
+	background: white;
+	width: 14%;
+}
+
+h3{
+	text-align: center;
+	display: block;
+	font-family: 'Sacramento', Script;
+	color: #000000;
+	font-size: 300%;
+	padding-top: 1em;
+}
+
+#services {
+	font-family: sans-serif;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	background: #BEC2D4;
+	padding-top: 5em;
+
+
+}
+
+#services p {
+	line-height: .5em;
+}
+
+#services ul {
+	font-family: sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	padding: 0;
+	line-height: 2em;
+
+}
+
+#services li {
+	font-family: sans-serif;
+}
+
+#services a {
+	font-family: 'Sacramento', script;
+	font-size: 180%;
+	color: #000000;
+	line-height: 3.5em;
+	text-decoration: none;
+}
+
+#services a:hover {
+	font-family: 'Sacramento', script;
+	color: white;
+	text-decoration: none;
+}
+
+#gallery {
+	text-align: center;
+}
+
+#gallery a img {
+	width: 10%;
+
+}
+
+
+/* Photo Grid */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.logo {
+	padding-top: 5em;
+	width: 100%;
+}
+
+#slideshow {
+	width: 100%;
+	height: 15em;
+	overflow: hidden;
+}
+
+h2 {
+	font-size: 210%;
+}
+
+#Services /* h2 */ {
+	display: block;
+	text-align: center;
+	padding-top: 0;
+	background: white;
+	width: 16%;
+}
+
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+nav {
+	width: 100%;
+	text-align: center;
+}
+
+nav a {
+	width: 100%;
+	font-size: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+ul {
+	width: 100%;
+}
+
+.logo {
+	padding-top: 5em;
+	width: 100%;
+}
+
+#slideshow {
+	width: 100%;
+	height: 28em;
+	overflow: hidden;
+}
+
+
+h2 {
+	font-size: 160%;
+
+}
+
+#quote {
+	font-size: 250%;
+
+}
+
+#About {
+	margin-left: 6em;
+	padding-top: .8em;
+	text-align: center;
+	background: white;
+	position: absolute;
+
+}
+
+#about p {
+	padding: 0;
+}
+
+#left {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 2em;
+
+}
+
+#left img {
+	width: 100%;
+}
+
+#right {
+	text-align: center;
+	padding: 4em;
+}
+
+
+
+
+h3 {
+	font-size: 200%;
+}
+
+#Services /* h2 */ {
+	display: block;
+	text-align: center;
+	padding-top: 0;
+	background: white;
+	width: 16%;
+}
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+nav {
+	width: 100%;
+}
+
+nav a {
+	width: 30%;
+	font-size: 170%;
+	padding: 0 .5em .5em .2em;
+}
+
+.logo {
+	padding-top: 5em;
+	width: 100%;
+}
+
+#slideshow {
+	width: 100%;
+	height: 30em;
+	overflow: hidden;
+}
+
+h2 {
+	font-size: 220%;
+
+}
+
+
+#Services /* h2 */ {
+	display: block;
+	text-align: center;
+	padding-top: 0;
+	background: white;
+	width: 18%;
+}
+
+h3 {
+	font-size: 250%;
+}
+
+#gallery a img {
+	width: 6%;
+
+}
+
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+
+	#gallery a img {
+	width: 6%;
+
+}
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+#gallery a img {
+	width: 6%;
+
+}
+
+	#Services /* h2 */ {
+	display: block;
+	text-align: center;
+	padding-top: 0;
+	background: white;
+	width: 16%;
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+#gallery a img {
+	width: 6%;
+
+}
+
+	#Services /* h2 */ {
+	display: block;
+	text-align: center;
+	padding-top: 0;
+	background: white;
+	width: 12%;
+}
+
+}
+
+
+
+
+
+
